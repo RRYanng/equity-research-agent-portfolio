@@ -1,0 +1,17 @@
+# Prototype deps — pinned to what the project venv installed (lock & test on upgrade, per README.md)
+yfinance==1.4.1
+anthropic==0.111.0
+pydantic==2.13.4
+python-dotenv==1.2.2
+requests==2.34.2                 # CoinGecko / 通用 HTTP（EDGAR 用 stdlib urllib）
+finnhub-python==2.4.29           # 同业倍数（可选：无 key 时降级到 Damodaran/LLM）
+# LangGraph 编排（Phase 0）。注：1.2.6 对未注册自定义类型反序列化有 future-block 警告，升级时需注册模块
+langgraph==1.2.6
+langgraph-checkpoint-sqlite==3.1.0
+
+# Web 研究终端（Phase 10 后端：FastAPI + SSE）
+fastapi==0.138.1
+uvicorn==0.49.0
+
+# 测试（regression tests + synthetic evaluation harness）
+pytest==9.1.0

@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "asof": "not-loaded",
+    "source": "Portfolio edition: no provider snapshot included",
+    "multiple_basis": "TTM / trailing（trailing_pe = price / 过去12个月 EPS；ev_sales = EV / 过去12个月营收）",
+    "caveat": "Empty configuration template. No industry observations are distributed. Supply your own locally obtained snapshot for this optional adapter.",
+    "urls": {
+      "pe": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html",
+      "ev_sales": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+      "ev_ebitda": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    }
+  },
+  "industries": {}
+}

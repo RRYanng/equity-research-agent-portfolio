@@ -1,0 +1,235 @@
+{
+  "raw_data": {
+    "ticker": "AABB",
+    "as_of": "2000-01-01",
+    "tier": "pre_ipo",
+    "price": 0.014063,
+    "currency": "USD",
+    "beta": 1.69875,
+    "sector": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+    "industry": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+    "long_name": "Synthetic AABB routing case",
+    "shares_outstanding": 5217893346,
+    "market_cap": 73379234.124798,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "net_debt": -276602,
+    "net_cash": 276601.5,
+    "cash_st_investments": 1256262,
+    "lt_marketable_securities": 0.0,
+    "buyback_shrink": 0.0,
+    "ordinary_shares_now": null,
+    "ordinary_shares_prior": null,
+    "earnings_dates": [
+      "2000-01-01"
+    ],
+    "fundamentals": {
+      "revenue": null,
+      "revenue_prior": null,
+      "gross_profit": null,
+      "operating_income": null,
+      "operating_income_prior": null,
+      "net_income": null,
+      "net_income_prior": null,
+      "total_assets": null,
+      "shareholders_equity": null,
+      "total_debt": 979660,
+      "cash": 1256262,
+      "operating_cash_flow": null,
+      "operating_cash_flow_prior": null,
+      "capex": null,
+      "free_cash_flow_reported": null,
+      "tax_provision": null,
+      "pretax_income": null,
+      "ebitda": -3435397,
+      "current_debt": null,
+      "revenue_prior2": null,
+      "net_income_prior2": null
+    },
+    "risk_free": {
+      "rate": 0.050456,
+      "raw": 5.045625,
+      "source": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+      "timestamp": "2000-01-01",
+      "ok": true
+    },
+    "business_summary": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+    "source": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+    "data_sparse": true,
+    "tier_reason": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+    "tier_degraded": true,
+    "low_confidence": true
+  },
+  "finnhub": {},
+  "fred": {
+    "inflation": {
+      "value": 0.046913,
+      "as_of": "2000-01-01",
+      "latest_index": 375.726375,
+      "prior_index": 360.6975,
+      "source": "Synthetic portfolio fixture; not a market observation or research conclusion."
+    },
+    "unemployment": {
+      "value": 0.04725,
+      "as_of": "2000-01-01",
+      "source": "Synthetic portfolio fixture; not a market observation or research conclusion."
+    },
+    "yield_curve": {
+      "dgs2": 0.046913,
+      "dgs10": 0.0504,
+      "spread": 0.003487,
+      "inverted": false,
+      "as_of": "2000-01-01",
+      "source": "Synthetic portfolio fixture; not a market observation or research conclusion."
+    }
+  },
+  "schema_responses": [
+    {
+      "fields": [
+        "expectation_gap",
+        "liquidity",
+        "marginal_change",
+        "rate_path",
+        "regime"
+      ],
+      "response": {
+        "regime": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "rate_path": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "liquidity": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "expectation_gap": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "marginal_change": "Synthetic portfolio fixture; not a market observation or research conclusion."
+      }
+    },
+    {
+      "fields": [
+        "cycle_position",
+        "expectation_gap",
+        "marginal_change",
+        "structure",
+        "tam_ceiling",
+        "tam_growth",
+        "valuation_percentile"
+      ],
+      "response": {
+        "tam_ceiling": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "tam_growth": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "structure": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "cycle_position": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "valuation_percentile": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "expectation_gap": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "marginal_change": "Synthetic portfolio fixture; not a market observation or research conclusion."
+      }
+    },
+    {
+      "fields": [
+        "business_model",
+        "expectation_gap",
+        "growth_ceiling_check",
+        "marginal_change",
+        "moat",
+        "moat_trend",
+        "revenue_structure"
+      ],
+      "response": {
+        "business_model": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "revenue_structure": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "moat": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "moat_trend": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "growth_ceiling_check": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "expectation_gap": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "marginal_change": "Synthetic portfolio fixture; not a market observation or research conclusion."
+      }
+    },
+    {
+      "fields": [
+        "catalysts"
+      ],
+      "response": {
+        "catalysts": [
+          {
+            "horizon": "3m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "双向",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "3m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "利空",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "3m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "双向",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "6m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "利好",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "6m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "利空",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "6m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "双向",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "12m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "利好",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "12m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "双向",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          },
+          {
+            "horizon": "12m",
+            "event": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+            "direction": "利空",
+            "note": "Synthetic portfolio fixture; not a market observation or research conclusion."
+          }
+        ]
+      }
+    },
+    {
+      "fields": [
+        "bear_thesis",
+        "bull_bear_debate",
+        "falsifiers",
+        "risks_by_category"
+      ],
+      "response": {
+        "bear_thesis": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "bull_bear_debate": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+        "risks_by_category": {
+          "技术": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "竞争": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "监管": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "财务": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "估值": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "管理层": "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "宏观": "Synthetic portfolio fixture; not a market observation or research conclusion."
+        },
+        "falsifiers": [
+          "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "Synthetic portfolio fixture; not a market observation or research conclusion.",
+          "Synthetic portfolio fixture; not a market observation or research conclusion."
+        ]
+      }
+    }
+  ],
+  "fixture_kind": "synthetic-portfolio-example"
+}

@@ -1,0 +1,39 @@
+AI Equity Research Agent project fact card
+
+Edition: sanitized portfolio edition / local prototype
+Public source: https://github.com/RRYanng/equity-research-agent-portfolio
+Verification date: 2026-10-02 (America/Los_Angeles)
+Authority: current code/configuration, then scoped test evidence, then descriptions.
+
+Positioning
+Personal full-stack financial research prototype combining deterministic calculations with LLM interpretation and assumptions. Public code is not a public application deployment. No verified production users, uptime, or public live demo.
+
+Stack
+Frontend: React 19, TypeScript, Vite 8, Tailwind CSS 4.
+Backend: Python 3.12 tested environment, FastAPI, Uvicorn, SSE.
+Analysis: LangGraph StateGraph, Pydantic, Anthropic Python SDK.
+Storage: local SQLite checkpoints, saved reports and watchlists.
+Adapters: yfinance, SEC EDGAR/XBRL, Finnhub, FRED, Damodaran-compatible industry data, CoinGecko. Adapter presence does not prove current source availability. The industry-data template is empty; obtain your own local snapshot.
+The separate personal portfolio uses Next.js; this application does not.
+
+Implemented scope
+Ticker input, SSE progress, structured result view, report history, watchlist, stored-run comparison, DCF/reverse-growth tools, financial ratios, selected quality metrics, supported multi-asset NAV, method routing, partial missing-data handling and degraded-node handling.
+Eight sequential core stages: macro, industry, company, financial, valuation, catalyst, risk, committee. Including data, sensitivity and consensus: 11 PUBLIC nodes, 12 PRE_IPO nodes, excluding START/END. No parallel-agent claim. Consensus executes after committee, not as an input to its rating.
+No application authentication or multi-user authorization.
+
+Public edition evidence
+170/170 regression tests passed; the bundled-snapshot test now verifies absence of distributed provider observations.
+Five synthetic workflow cases passed 27/27 checks. This is schema-based synthetic replay, not original recorded-prompt replay, current market analysis, or proof of LLM accuracy.
+Frontend TypeScript/Vite production build passed after fresh npm ci.
+Python validation used the previously tested pinned environment; fresh Python dependency installation elsewhere is unverified.
+No fresh paid analysis was performed for this publication.
+
+Historical original implementation evidence
+A prior real AAPL request returned a memo but the risk node degraded with a Pydantic error in risks_by_category; downstream continued with low confidence. The public edition retains this known underlying limitation and does not claim a clean live pass.
+
+Claims to avoid
+Public deployment, production users, production stability, all numbers independently verified, zero hallucination, universal citations, all missing values return unavailable, exact prompt replay in this public edition, parallel eight-agent execution, guaranteed billing cap, fixed risk-node defect.
+
+Privacy boundary
+Fresh Git history. No original history, real credentials, machine paths, private configurations, runtime databases/caches, internal planning documents, generated memos or original recorded research responses.
+Synthetic case values/narratives are test inputs and are not market observations.

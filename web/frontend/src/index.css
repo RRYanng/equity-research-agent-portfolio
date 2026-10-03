@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* 日式极简浅色基调：大量留白、克制、信息密度优先 */
+:root {
+  font-family: -apple-system, system-ui, "Hiragino Sans GB", "PingFang SC", sans-serif;
+}
+body {
+  margin: 0;
+  background: #fafaf9;
+  color: #1c1917;
+}

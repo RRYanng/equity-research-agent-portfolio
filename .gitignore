@@ -1,0 +1,19 @@
+# Private runtime configuration and generated artifacts
+.env
+.env.*
+!**/.env.example
+.venv/
+.claude/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+dist/
+.DS_Store
+data_cache/
+output/
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+*.pdf

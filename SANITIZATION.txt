@@ -1,0 +1,16 @@
+Sanitized portfolio edition publication boundary
+
+Kept
+Curated Python analysis and deterministic tools, FastAPI/SSE endpoints, React/Vite UI, local SQLite storage code, tests, dependency declarations and local launcher.
+
+Removed or excluded
+Original Git history; credentials and runtime configuration; caches/checkpoints/report/watchlist databases; generated research reports; internal planning/assistant documents; handoff PDFs; machine-specific paths and authoring artifacts; archived provider observations and original LLM responses.
+
+Replaced
+Credential example uses empty values. Five offline cases use synthetic numeric inputs and generic narrative text instead of original research outputs. Familiar tickers are routing labels only. Schema-shape matching replaces archived prompt hashes. Provider snapshot becomes an empty configuration template, so default live research cannot consume synthetic industry observations.
+
+Recording boundary
+Optional live recording writes into ignored data_cache/eval_recordings. These files are not part of the public tree. The original private repository was neither edited nor made public.
+
+Scope of validation
+Tests/build and synthetic workflow checks are scoped to the tested environment. Publication does not fix the historical risk-node output validation issue and does not deploy a live service.
